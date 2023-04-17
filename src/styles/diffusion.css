@@ -1,0 +1,42 @@
+.diffusioncard {
+  min-height: 536px;
+  padding: 32px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  background: rgba(18, 9, 10, 0.77);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border: 1px solid rgba(18, 9, 10, 0.3);
+}
+.diffusioncard > h1 {
+  font-family: "Blinker", "Roboto", "Courier New", Courier, monospace;
+  font-size: 4rem;
+}
+.diffusioncard > h2 {
+  font-family: "Blinker", "Roboto", "Courier New", Courier, monospace;
+  font-size: 3rem;
+}
+.diffusioncard > * {
+  padding: 20px;
+}
+.diffusion_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.diffusion_form > .inputfield {
+  padding-bottom: 20px;
+}
+.diffusionSubmitBttn {
+  background-color: #fe4e6e;
+  font-family: "Blinker", "Courier New", Courier, monospace;
+}
+.diffusionSubmitBttn:hover {
+  background-color: #f12f53;
+}

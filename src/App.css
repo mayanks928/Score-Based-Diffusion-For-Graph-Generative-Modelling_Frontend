@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  min-width: 900px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.mainapp {
+  height: 100%;
+  background-color: #191610;
+  padding-bottom: 1rem;
+}
+.websitelogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 70px;
+}
+.websitelogo > h1 {
+  font-family: "Blinker", "Roboto", "Courier New", Courier, monospace;
+  font-size: 4rem;
+}
+.MuiMenuItem-root a {
+  text-decoration: none;
+  color: #f7c1bb;
+}
+
+.menu-item:hover {
+  transform: scale(1.3);
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  color: #f7dbd8;
+}
+.menu-item {
+  font-family: "Blinker", "Roboto", "Courier New", Courier, monospace;
+  font-size: 2rem;
+}
+.currentMenu-item {
+  text-decoration: underline;
+  transform: scale(1.3);
+  color: #f0f0f0;
+}
+.currentMenu-item a {
+  color: #f8d0d7;
+}
+.content {
+  color: #f0dddb;
+  background-color: #430e18;
+  margin: 1rem;
+  padding: 1rem;
+  min-height: 600px;
+}

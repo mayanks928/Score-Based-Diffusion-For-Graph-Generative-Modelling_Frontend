@@ -1,0 +1,122 @@
+.registrationcard {
+  padding: 32px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgba(18, 9, 10, 0.77);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border: 1px solid rgba(18, 9, 10, 0.3);
+}
+.coverup {
+  padding: 0 20px 0 0;
+  right: 0;
+  transform: translateX(0);
+  /* background: rgba(254, 78, 110, 1); */
+  width: 50%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-out;
+  background-image: url("stacked-peaks-haikei.svg");
+  background-size: cover;
+}
+
+.shiftedleft {
+  /* right: auto; */
+  padding: 0 0px 0 0;
+  right: 100%;
+  transform: translateX(100%);
+}
+.coverup > * {
+  padding: 10px;
+  font-family: "Abel", sans-serif;
+  font-size: 4rem;
+}
+.coverup > button {
+  width: 50%;
+  height: 10%;
+  background-color: rgb(66, 14, 24);
+  font-size: 2rem;
+}
+.coverup > button:hover {
+  background-color: rgb(51, 19, 25);
+}
+
+.signupform_div > *,
+.loginform_div > * {
+  padding: 20px;
+  font-family: "Blinker", serif;
+  font-size: x-large;
+  /* border: 1px solid red; */
+}
+.signupform_div h3,
+.loginform_div h3 {
+  text-decoration: underline white;
+  font-size: xx-large;
+  color: #ff7e96;
+}
+.signupform,
+.loginform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signupform > *,
+.loginform > * {
+  font-family: "Blinker", serif;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  font-size: large;
+}
+.inputfield {
+  width: 24ch;
+}
+.inputfield label,
+.inputfield div {
+  font-family: "Blinker", serif;
+  color: white;
+}
+.inputfield .MuiFormHelperText-root {
+  font-family: "Blinker", serif;
+  color: white;
+}
+.inputfield label:hover,
+.inputfield div:hover {
+  background-color: rgb(35, 25, 25);
+}
+
+.inputfield label:-webkit-autofill {
+  -webkit-text-fill-color: yellow !important;
+  border: 10px solid yellow;
+}
+.inputfield div input:-webkit-autofill {
+  -webkit-text-fill-color: rgb(255, 255, 255);
+
+  -webkit-box-shadow: 0 0 0 30px rgb(24, 15, 15) inset !important;
+}
+.inputfield div > fieldset,
+.inputfield div > fieldset:hover,
+.inputfield div > fieldset:focus,
+.inputfield div > fieldset:active {
+  border: 2px solid rgb(244, 189, 189);
+}
+
+.signup_bttn,
+.login_bttn {
+  background-color: #fe4e6e;
+}
+.signup_bttn:hover,
+.login_bttn:hover {
+  background-color: #f12f53;
+}
