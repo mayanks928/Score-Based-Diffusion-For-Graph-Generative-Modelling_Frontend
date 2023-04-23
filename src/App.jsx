@@ -18,7 +18,7 @@ export default function App() {
         <AnimatePresence>
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
+          {/* <Route path="/login" element={<Login />} /> */}
           <Route path="/main" element={<Diffusion />} />
           <Route path="/aboutus" element={<AboutUs />} />
         </Routes>

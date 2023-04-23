@@ -6,7 +6,7 @@ const pages = [
   ["Home", ""],
   ["Generate", "main"],
   ["About Us", "aboutus"],
-  ["Sign-up/Login", "login"],
+  //["Sign-up/Login", "login"],
 ];
 import Logo from "./styles/logosvg.svg";
 
