@@ -37,7 +37,11 @@
 .individualSmile > * {
   padding: 5px 15px;
   max-height:400px ;
+  max-width:90%;
 }
 .individualSmile > p {
   font-size: x-large;
+}
+.link_text>a{
+  color: #f7c1bb;;
 }

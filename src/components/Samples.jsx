@@ -69,7 +69,20 @@ export default function Samples() {
             );
           })}
         </div>
-        <p>Click <a>here</a> to download the model weights </p>
+        <p className="link_text">
+          Click{" "}
+          <a href="./model.rar" download>
+            here
+          </a>{" "}
+          to download the model and weights{" "}
+        </p>
+        <p className="link_text">
+          Click{" "}
+          <a href="./images.zip" download>
+            here
+          </a>{" "}
+          to download the above generated Graph images{" "}
+        </p>
       </div>
     </motion.div>
   );
