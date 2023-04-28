@@ -4,7 +4,7 @@ import { Typography, Toolbar, AppBar, MenuItem } from "@mui/material";
 
 const pages = [
   ["Home", ""],
-  ["Generate", "main"],
+  ["Samples", "main"],
   ["About Us", "aboutus"],
   //["Sign-up/Login", "login"],
 ];

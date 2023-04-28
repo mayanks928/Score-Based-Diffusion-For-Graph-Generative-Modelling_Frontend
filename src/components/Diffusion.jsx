@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 export default function Diffusion() {
   const [nValue, setNValue] = useState();
   function handleInputChange(event) {
+    event.preventDefault();
     setNValue(event.target.value);
   }
   return (
