@@ -15,6 +15,7 @@ Our project has the following objectives:
 
 
 ## Frontend Details
+To explore the hosted frontend, please visit the following link: [Di-fun-sion](https://difunsion.vercel.app/ "Di-fun-sion")
 #### Purpose
 The frontend of our project serves as a platform to display our results and present our model architecture to users. The design principle driving the frontend development is simplicity and clarity. The website is an essential tool for showcasing the outcomes of our project and helping users understand the proposed method.
 
